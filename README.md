@@ -162,6 +162,16 @@ Base URL: `https://unichatbot.onrender.com`
 ```
 
 ## Deployment
+### Vercel (Static SPA)
+This project deploys cleanly to Vercel as a static SPA using the built client assets.
+
+1. Ensure your environment variable in Vercel project settings:
+   - `VITE_BACKEND_HTTP=https://unichatbot.onrender.com`
+2. The repo includes `vercel.json` with rewrites for client-side routing and publish directory set to `build/client`.
+3. Vercel will run `npm run build` and serve from `build/client`.
+
+If you later move to SSR on Vercel, use the React Router Vercel adapter (`@react-router/vercel`) and update the build accordingly.
+
 ### Docker
 Build and run:
 
