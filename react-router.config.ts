@@ -1,7 +1,6 @@
 import type { Config } from "@react-router/dev/config";
 
 export default {
-  // Config options...
-  // Server-side render by default, to enable SPA mode set this to `false`
-  ssr: true,
+  // Switch to SPA: emit client-only build with index.html in build/client
+  ssr: false,
 } satisfies Config;

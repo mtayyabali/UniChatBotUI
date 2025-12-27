@@ -4,11 +4,13 @@
     { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "routes": [
+    { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ],
-  "env": {
-    "VITE_BACKEND_HTTP": "https://unichatbot.onrender.com"
+  "build": {
+    "env": {
+      "VITE_BACKEND_HTTP": "https://unichatbot.onrender.com"
+    }
   },
-  "framework": null
+  "outputDirectory": "build/client"
 }
-

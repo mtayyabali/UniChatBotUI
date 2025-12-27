@@ -7,3 +7,5 @@
 /build/
 .idea/
 .idea
+.vercel
+.env*.local
