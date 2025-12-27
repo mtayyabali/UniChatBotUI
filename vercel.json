@@ -1,16 +1,14 @@
 {
   "version": 2,
   "builds": [
-    { "src": "package.json", "use": "@vercel/static-build" }
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build/client" }
+    }
   ],
   "routes": [
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
-  ],
-  "build": {
-    "env": {
-      "VITE_BACKEND_HTTP": "https://unichatbot.onrender.com"
-    }
-  },
-  "outputDirectory": "build/client"
+  ]
 }
