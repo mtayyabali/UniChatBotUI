@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title desc" role="img">
+  <title id="title">UniChatBot Logo (Dark, Modern)</title>
+  <desc id="desc">A sleek geometric chat bubble with a minimalist graduation cap, optimized for dark backgrounds.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BB6FF"/>
+      <stop offset="100%" stop-color="#5B82FF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(16,24)">
+    <rect x="0" y="0" width="96" height="64" rx="16" fill="#0B1A2E" stroke="#A8C5FF" stroke-width="2.5"/>
+    <path d="M28 64l-8 14c-.8 1.4.6 3 2.2 2.5L44 72" fill="#0B1A2E" stroke="#A8C5FF" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="36" cy="32" r="4" fill="url(#grad)"/>
+    <circle cx="48" cy="32" r="4" fill="url(#grad)"/>
+    <circle cx="60" cy="32" r="4" fill="url(#grad)"/>
+  </g>
+  <g transform="translate(24,10)">
+    <path d="M40 8L8 20l32 12 32-12-32-12Z" fill="#1E3A8A" stroke="#C9DBFF" stroke-width="2"/>
+    <rect x="24" y="24" width="32" height="8" rx="4" fill="#132A5E"/>
+    <path d="M56 21c3 3 8 10 8 16" stroke="#FFD76E" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="56" cy="21" r="3" fill="#FFD76E"/>
+  </g>
+</svg>
+
