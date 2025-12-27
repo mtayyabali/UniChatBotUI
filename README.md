@@ -201,4 +201,4 @@ The server output from `npm run build` is production-ready.
 - Icons/Logo: Custom modern SVGs (mortarboard + chat bubble)
 
 ---
-Built with ❤️ by UniChatBot.
+Built with ❤️ by mtayyaabli
