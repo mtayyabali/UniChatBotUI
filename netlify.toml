@@ -1,0 +1,25 @@
+# Netlify configuration for UniChatBot UI
+
+[build]
+  command = "npm run build"
+  publish = "build/client"
+
+# Ensure single page app routing works (serve index.html for all routes)
+[[redirects]]
+  from = "/chat"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+# Optional: proxy API calls to the backend if you want to call via relative paths
+# Uncomment and change if you switch to relative API calls like /api/* in the UI
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://unichatbot.onrender.com/:splat"
+#   status = 200
+#   force = true
+
